@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            line-height: 1.5; /* définit un interligne de 1.5 */
+        }
+    </style>
+</head>
+<body>
+    <h1>Nous Contacter</h1>
+
+    <div style="position: relative; float: left; width: 70%;">
+        <p>Lorem ielit. rum pora accusantium quam minus </p>
+        <p>🏠Adress : Rabat</p>
+        <p>📞telephone : <a href="">06 00 00 00 00</a></p>
+        <p>📧email : <a href="">z8L4l@example.com</a></p>
+    </div>
+    <div style=" float: left;">
+        <div >
+            <button type="submit" style=" margin-left: 15px;color: white; background-color: blue;width: 100%; justify-content: center;">text text</button>  
+            <form action="form.php" method="post" style="padding-left: 20px; font-size: 20px; ;">
+                <label for="nam"><b>NOM:</b></label>
+                <input type="text" id="nam"><br>
+                <label for="pre"><b>PREN:</b></label>
+                <input type="text" id="pre"><br>
+                <label for="email"><b>Email:</b></label>
+                <input type="email" id="email"><br>
+                <label for="tel"><b>Phone:</b></label>
+                <input type="tel" id="tel"><br><br>
+                <label for="adress"></label>
+                <label for="adress"><b>Adress:</b></label>
+                <textarea id="adress" style="width: 100%;"></textarea><br>
+                <button type="submit" style="color: white; background-color: blue;width: 100%; justify-content: center;">LOGIN</button>  
+            </form>
+        </div>
+</body>
+</html>
