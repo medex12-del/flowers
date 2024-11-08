@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>   
+        #flower{
+            float: left;
+        }
+        #head  {
+            background-color: pink;
+            float: left;
+            width:94%;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            
+        }     
+    
+        nav ul li {
+        list-style-type: none;
+        float: left;
+
+        padding-left: -100px;
+        margin-right: 12%;
+        }
+        nav ul li a {
+
+        color: BLACK;
+        text-decoration: none;
+        }
+        .prod{
+            width:30%;
+            text-align: center;
+            background-color: pink;
+            float: left;
+            margin-left: 20px;
+    
+            
+
+        }
+        .prod:hover{
+            border: solid 3px black;
+            box-shadow: 3px 3px 5px;
+        }
+        .prod img{
+            border: solid palevioletred ;
+            width:90%;
+            margin-top: 30px;
+            
+            
+
+        }
+        @media only screen and (max-width: 1055px) {
+            #head  {
+            background-color: pink;
+            float: left;
+            width:90%;
+
+        }  
+
+        nav ul li {
+        list-style-type: none;
+        float: left;
+
+        padding-left: -100px;
+        margin-right: 10%;
+        }
+
+        }
+        @media only screen and (max-width: 900px) {
+            #head  {
+            background-color: pink;
+            float: left;
+            width:88%;
+
+        }  
+
+        nav ul li {
+        list-style-type: none;
+        float: left;
+
+        padding-left: -100px;
+        margin-right: 9%;
+        }
+
+        }
+        @media only screen and (max-width: 850px) {
+            #head  {
+            background-color: pink;
+            float: left;
+            width:88%;
+
+        }  
+
+        nav ul li {
+        list-style-type: none;
+        float: left;
+
+        padding-left: -100px;
+        margin-right: 5px;
+        }
+
+        }
+
+
+
+
+
+
+
+</style>
+<body>
+    <img id="flower" style ="width: 60px; margin-top: -10px;"src="https://www.freeiconspng.com/uploads/flower-icon-32.png" alt="">
+    <header id="head">
+        <nav>
+            
+            <ul>
+                
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Presentation</a></li>
+                <li><a href="#">Bouquetes De Fleurs</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <img style="width: 100%;" src="/html/images/bannerrr.png">
+    <h1 style="text-align: center;">NOTRE SELECTION DE FLEURS ED DE PLANTES</h1>
+    <div class="prod">
+        <img src="https://files.oaiusercontent.com/file-qCP5HkZUxlPkS8tmRFuaaM1a?se=2024-11-08T16%3A08%3A00Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D28918b16-8f16-4fb7-b45d-fd5405e26b9d.webp&sig=Ycb9ol5fd6nRaklSPbCa7064Nvc%2BN%2B7C1OlVVkWLqpU%3D" alt="">
+        <div style="text-align: center;">
+        <h3>Glamour: 12</h3>
+        <h3>Fleurs sans vase</h3>
+        <h4>190.000 DH</h4>
+        </div>
+        <button style="margin-bottom: 20px;color: palevioletred; height: 30px;">🛒 Commander</button>
+    </div>
+    <div class="prod">
+        <img src="https://files.oaiusercontent.com/file-2pvlZI9BjAKu58T8LwF1IdW1?se=2024-11-08T16%3A07%3A16Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db4a59d50-34ed-4fc4-88cf-2e7347c59a2a.webp&sig=0W7ziIAO9f5pVbrqJpRMBjJQl/q4TolIejvJkyYqg9Q%3D" alt="">
+        <div style="text-align: center;">
+        <h3>Purete: 15 fleures</h3>
+        <h3>blanches</h3>
+        <h4>250.000 DH</h4>
+        </div>
+        <button style="margin-bottom: 20px;color: palevioletred; height: 30px;">🛒 Commander</button>
+    </div>
+    <div class="prod">
+        <img src="https://files.oaiusercontent.com/file-uE121E6JqDhnGjGtHYWif9N2?se=2024-11-08T16%3A06%3A30Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D36545d88-c44e-408f-9293-5278028090c6.webp&sig=l7VP%2Bz/%2BmsV3PdYzIkEnEtSFBXhIx3gTwknwlAbT7Qk%3D" alt="">
+        <div style="text-align: center;">
+        <h3>Mille pensees : 12</h3>
+        <h3>Fleurs rouges</h3>
+        <h4>300.000 DH</h4>
+        </div>
+        <button style="margin-bottom: 20px;color: palevioletred; height: 30px;">🛒 Commander</button>
+    </div>
+</body>
+</html>
