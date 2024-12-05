@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    display: grid;
+    grid-template-areas:
+    'a a a a'
+    'b c c d'
+    'e e e e';
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 200px 400px 200px ;  
+    gap: 10px;
+    background-color: white;
+}
+.a{
+    display: flex;
+    background-color: rgb(171, 15, 15);
+    border-radius: 15px;
+    grid-area: a;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+  
+}
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 197, 2);
+    border-radius: 15px;
+    grid-area: b;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+  
+    
+}
+.c{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(15, 29, 154);
+    border-radius: 15px;
+    grid-area: c;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+    
+    
+}
+.d{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ce0a8c;
+    border-radius: 15px;
+    grid-area: d;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+  
+}
+.e{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(115, 75%, 46%);
+    border-radius: 15px;
+    grid-area: e;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    
+   
+    
+}
+
+
+
+@media (max-width: 1000px) {
+    .container{
+        display: grid;
+        grid-template-areas:
+        'a a a a'
+        'c c c c'
+        'b b d d'
+        'e e e e';
+        grid-template-rows: 200px 400px 200px 200px;
+    } } 
+
+   
+
+    
+
+
+@media (max-width: 800px) {
+    .container{
+        display: grid;
+        grid-template-areas:
+        'a a a a'
+        'c c c c'
+        'b b b b'
+        'd d d d'
+        'e e e e';
+        grid-template-rows: 200px 400px 200px 200px 200px; 
+    
+
+}}
+</style>
+<body>
+    <div class="container">
+        <div class="a">Lorem, ipsum.</div>
+        <div class="b">Lorem, ipsum.</div>
+        <div class="c">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eaque consectetur perferendis </div>
+        <div class="d">Lorem, ipsum.</div>
+        <div class="e">Lorem, ipsum.</div>
+        
+
+
+    </div>
+    
+</body>
+</html>
